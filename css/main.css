@@ -23,6 +23,7 @@ nav {
 nav ol {
   font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
+  list-style-type: none;
 }
 
 a {
