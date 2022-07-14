@@ -1,0 +1,94 @@
+html {
+  box-sizing: border-box;
+  background-color: #c9b5ab;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1, h2 {
+  font-size: 1.5rem;
+  font-family: "PT Sans", sans-serif;
+  color: #3f1622;
+}
+
+nav {
+  font-size: 1.125rem;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+}
+
+nav ol {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.125rem;
+}
+
+a {
+  color: #8f2440;
+  font-size: 1.125rem;
+  font-family: "PT Sans", sans-serif;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  font-family: "PT Serif", serif;
+  font-size: .8rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: "PT Serif", serif;
+}
+
+blockquote p {
+  font-style: italic;
+  font-size: 1.5rem;
+  font-family: "PT Serif", serif;
+}
+
+blockquote footer {
+  font-size: .8rem;
+}
+
+strong {
+  font-weight: normal;
+}
+
+h2 + p {
+  font-style: italic;
+}
+
+dt {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: circle;
+  font-size: .8rem;
+}
+
+footer {
+  font-size: .8rem;
+}
+
+footer a {
+  color: #8f2440;
+}
+
+footer a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
